@@ -92,7 +92,7 @@ import android.widget.Toast;
 import neleso.db.*;
 
 // NeLeSo - Kiosk is now under version control
-// 15. 1. 2014
+// 15. 1. 2014 Version 1
 
 // Development on branch: develop
 
