@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<storefront>
+
+	    <magazine name ="pcwelt">
+	    <url_kiosk url_kiosk = "http://pcwelt.mserver.net/m_storefront/" />
+	    <url_news url_news = "http://www.pcwelt.de/magazin_newsflip.html" />
+	    <url_website url_website = "http://pcwelt.mserver.net/m_homepage/" />
+		<url_help url_help= "http://pcwelt.mserver.net/m_storefront/pcwelt/hilfe.html" />	
+	    </magazine>
+	    
+	    <magazine name ="maclife">
+	    <url_kiosk url_kiosk = "http://fm_maclife.mserver.net/m_storefront/" />
+	    <url_news url_news = "http://fm_maclife.mserver.net/m_specials/" />
+	    <url_website url_website = "http://www.maclife.de" />
+		<url_help url_help= "http://abo.falkemedia.de/content/ipad-kiosk-hilfe" />
+	    </magazine>
+	    
+	    <magazine name ="vogel">
+	    <url_kiosk url_kiosk = "http://vogel.mserver.net/m_storefront/" />
+        <url_news url_news = "http://vbm.mserver.net/m_specials/" />
+        <url_website url_website = "http://vbm.mserver.net/m_homepage/" />
+		<url_help url_help= "http://vbm.mserver.net/m_help" />
+	    </magazine>
+	    
+	    <magazine name ="wuv">
+	    <url_kiosk url_kiosk = "http://wuv.mserver.net/m_storefront/" />
+	    <url_news url_news = "http://wuv.mserver.net/m_specials" />
+	    <url_website url_website = "http://wuv.mserver.net/m_homepage/" />
+		<url_help url_help= "http://wuv.mserver.net/m_help/" />
+	    </magazine>
+	    
+	    <magazine name = "industriekatalog">
+	    <url_kiosk url_kiosk = "http://ikatalog.magstage.com/m_storefront/" />
+	    <url_news url_news = "http://industriekatalog.mserver.net/m_specials/" />
+	    <url_website url_website = "http://industriekatalog.mserver.net/m_homepage/" />
+		<url_help url_help= "http://industriekatalog.mserver.net/m_help/" />
+	    </magazine>
+	    
+	    <magazine name = "konstruktion">
+	    <url_kiosk url_kiosk = "http://konstruktion.mserver.net/m_storefront/" />
+	    <url_news url_news = "http://www.konstruktion.de/ressort/specials/branchenspecials/" />
+	    <url_website url_website = "http://konstruktion.de" />
+		<url_help url_help= "http://konstruktion.mserver.net/m_help/" />
+	    </magazine>
+	    
+</storefront>

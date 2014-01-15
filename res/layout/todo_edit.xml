@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/listcolor"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/priorities" >
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/mGuid"
+            android:layout_width="613dp"
+            android:layout_height="38dp"
+            android:layout_weight="0.00"
+            android:hint="Guid"
+            android:imeOptions="actionNext" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mTitle"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/mSubtitle"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:text="Subtitle" />
+
+    <EditText
+        android:id="@+id/mPdfThumbnails"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:hint="PdfThumbnails"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/mPdfLink"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:hint="PdfLink"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/mPdfFile"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:hint="PdfFile"
+        android:imeOptions="actionNext" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/mPubDate"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:text="PubDate" />
+
+    <TextView
+        android:id="@+id/mProductIdentifier"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:text="Product Identifier" />
+
+    <TextView
+        android:id="@+id/mUid"
+        android:layout_width="613dp"
+        android:layout_height="38dp"
+        android:text="Uid" />
+
+    <Button
+        android:id="@+id/todo_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_edit_confirm" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="167dp"
+        android:layout_height="227dp" />
+
+</LinearLayout>

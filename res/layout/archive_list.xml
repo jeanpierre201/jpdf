@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+      <LinearLayout
+          android:id="@+id/Title"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:baselineAligned="true"
+          android:gravity="center"
+          android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+              android:clickable="false" />
+
+     
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.76"
+            android:layout_gravity="center"
+            android:divider="#C0C0C0"
+            android:dividerHeight="12px" >
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MenuBar"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@drawable/background"
+        android:orientation="horizontal" > 
+             <ImageButton android:id="@+id/kiosk" android:layout_height="match_parent" android:src="@drawable/icon_01_kiosk" android:onClick="callIntent" android:layout_width="78dp" android:background="@drawable/icon_01" android:layout_weight="1"></ImageButton>
+            <ImageButton android:id="@+id/archive" android:layout_height="match_parent" android:src="@drawable/icon_02_archive" android:onClick="callIntent" android:layout_width="78dp" android:background="@drawable/icon_02" android:layout_weight="1"></ImageButton>
+            <ImageButton android:id="@+id/news" android:layout_height="match_parent" android:src="@drawable/icon_03_news" android:onClick="callIntent" android:layout_width="78dp" android:background="@drawable/icon_03" android:layout_weight="1"></ImageButton>
+            <ImageButton android:id="@+id/website" android:layout_height="match_parent" android:src="@drawable/icon_04_www" android:onClick="callIntent" android:layout_width="78dp" android:background="@drawable/icon_04" android:layout_weight="1"></ImageButton>
+            <ImageButton android:id="@+id/help" android:layout_height="match_parent" android:src="@drawable/icon_05_help" android:onClick="callIntent" android:layout_width="78dp" android:background="@drawable/icon_05" android:layout_weight="1"></ImageButton> </LinearLayout>       
+  
+
+</LinearLayout>        
