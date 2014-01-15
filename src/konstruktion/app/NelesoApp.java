@@ -94,6 +94,8 @@ import neleso.db.*;
 // NeLeSo - Kiosk is now under version control
 // 15. 1. 2014
 
+// Development on branch: develop
+
 public class NelesoApp extends FragmentActivity    {
 	
 	
