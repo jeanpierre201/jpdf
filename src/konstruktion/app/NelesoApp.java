@@ -91,6 +91,9 @@ import android.webkit.WebSettings.ZoomDensity;
 import android.widget.Toast;
 import neleso.db.*;
 
+// NeLeSo - Kiosk is now under version control
+// 15. 1. 2014
+
 public class NelesoApp extends FragmentActivity    {
 	
 	
