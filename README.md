@@ -42,6 +42,9 @@ The assets/jpdf/ contains the tool bar header in the given Kiosk. Here you can a
 
 ____________________________________________________________________________________________________________________________
 
+You can try the free version installing the jpdf.apk
+https://github.com/jeanpierre201/jpdf/blob/master/jpdf.apk
+
 JP
 
 
