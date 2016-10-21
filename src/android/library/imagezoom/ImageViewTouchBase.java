@@ -1,5 +1,6 @@
 package android.library.imagezoom;
 
+import jpdf.app.JpdfApp;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
@@ -35,7 +36,7 @@ public class ImageViewTouchBase extends ImageView implements IDisposable {
 	protected int							mThisWidth			= -1, mThisHeight = -1;
 	
 	final protected RotateBitmap		mBitmapDisplayed	= new RotateBitmap( null, 0 );
-	final protected float				MAX_ZOOM				= 2.0f;
+	public float				MAX_ZOOM;
 
 	private OnBitmapChangedListener	mListener;
 	
@@ -64,6 +65,16 @@ public class ImageViewTouchBase extends ImageView implements IDisposable {
 	protected void init()
 	{
 		setScaleType( ImageView.ScaleType.MATRIX );
+		if (JpdfApp.screenInches >= 6 && JpdfApp.screenInches <= 7 ) {
+			if (JpdfApp.screenInches == 6.752158166168466) {
+				MAX_ZOOM				= 1.80f;    // ASUS
+			} else {
+				MAX_ZOOM				= 1.81f;
+			}
+			
+		} else {
+			MAX_ZOOM				= 1.83f;
+		}
 	}
 	
 	public void clear()
@@ -139,7 +150,7 @@ public class ImageViewTouchBase extends ImageView implements IDisposable {
 		if ( mBitmapDisplayed.getBitmap() == null ) { return 1F; }
 		float fw = (float)mBitmapDisplayed.getWidth() / (float)mThisWidth;
 		float fh = (float)mBitmapDisplayed.getHeight() / (float)mThisHeight;
-		float max = Math.max( fw, fh ) * 4;
+		float max = (float) (Math.max( fw, fh ) * MAX_ZOOM);
 		return max;
 	}
 	

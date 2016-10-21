@@ -16,12 +16,12 @@
 
 package android.bitmap.util;
 
+import jpdf.app.PdfReader;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
 import android.os.StrictMode;
 
-import konstruktion.app.PdfReader;
 
 /**
  * Class containing some static utility methods.

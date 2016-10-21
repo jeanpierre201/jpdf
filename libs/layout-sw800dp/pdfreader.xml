@@ -4,22 +4,20 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:weightSum="1">
-    
+  
     <LinearLayout
-        android:id="@+id/linearLayout300"
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:baselineAligned="true"
         android:orientation="vertical" >
-    
-    <jpdf.app.CustomViewPager
-        android:id="@+id/pager_landscape"
+        
+    <industriekatalog.app.CustomViewPager
+        android:id="@+id/pager"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:layout_weight="0.81"
         android:background="#ffffff" />
-         
-    </LinearLayout> 
-       
+    </LinearLayout>        
 
 </LinearLayout>

@@ -16,7 +16,7 @@
 
 package android.bitmap.util;
 
-import konstruktion.app.BuildConfig;
+import jpdf.app.BuildConfig;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;

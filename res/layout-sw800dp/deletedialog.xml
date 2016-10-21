@@ -6,7 +6,7 @@
 
         <TextView
             android:id="@+id/Delete01"
-            android:layout_width="203dp"
+            android:layout_width="300dp"
             android:layout_height="89dp"
             android:layout_gravity="center"
             android:text="Delete"
@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="90dp"
             android:layout_gravity="center" >
 

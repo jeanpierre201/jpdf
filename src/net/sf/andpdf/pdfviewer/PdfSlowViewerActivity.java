@@ -1,7 +1,7 @@
 package net.sf.andpdf.pdfviewer;
 
 
-import konstruktion.app.ShowPdf;
+import jpdf.app.ShowPdf;
 import android.os.Bundle;
 
 

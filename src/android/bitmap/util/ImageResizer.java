@@ -26,7 +26,7 @@ import android.util.Log;
 
 import java.io.FileDescriptor;
 
-import konstruktion.app.BuildConfig;
+import jpdf.app.BuildConfig;
 
 
 /**

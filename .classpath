@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="crypto-src/|crypto-src/" kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry excluding="crypto-src/|crypto-src/" kind="src" path="src"/>
 	<classpathentry kind="src" path="src/crypto-src"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="src" path="pdfview"/>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar" sourcepath="libs/android-support-v4.jar"/>
 	<classpathentry kind="lib" path="libs/htmlcleaner-2.2.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-12/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-14/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-15/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-16/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-17/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-18/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-19/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-20/android.jar"/>
+	<classpathentry kind="lib" path="/Users/jpdelator/Android/Virtual Machines/adt-mac-2014/sdk/platforms/android-21/android.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

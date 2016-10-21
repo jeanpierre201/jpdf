@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Konstruktion Kiosk!</string>
-    
-    <string name="app_name">Konstruktion Kiosk</string>
+    <string name="hello">Hello World, JPDF!</string>   
+    <string name="app_name">JPDF</string>
     
     <string name="billing_not_supported_title">Can\'t make purchases</string>
     <string name="billing_not_supported_message">The Market billing
@@ -29,7 +28,6 @@
     <string name="two_handed_sword">Two-handed sword</string>
     <string name="potions">Potions</string>
     <string name="androidwelt_2859">Androidwelt 1/2012</string>
-    <string name="pc_welt_2723">PC-WELT 12/2011</string>
     <string name="no_network_connection_toast">No network connection found</string>
     <string name="imageview_description">Image Thumbnail</string>
     <!-- The following are reserved skus defined by Market for testing. -->
@@ -50,4 +48,5 @@
 	
 	<string name="downloadPicture">downloadPicture</string>
     <string name="resetPicture">resetPicture</string>
+    <string name="imageViewDescription">Image to fill up</string>
 </resources>

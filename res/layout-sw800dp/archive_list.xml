@@ -2,26 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFFFFF"
     android:orientation="vertical"
-    android:weightSum="1" >
+    android:weightSum="1"  
+    android:background="#FFFFFF" >
 
       <LinearLayout
           android:id="@+id/Title"
           android:layout_width="match_parent"
-          android:layout_height="40dp"
+          android:layout_height="54dp"
           android:baselineAligned="true"
           android:gravity="center"
           android:orientation="vertical" >
 
-            <ImageButton
-                android:id="@+id/header"
-                android:layout_width="match_parent"
-                android:layout_height="fill_parent"
-                android:background="#FFFFFF"
+          <ImageButton
+              android:id="@+id/header"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
               android:clickable="false" />
 
-     
     </LinearLayout>
 
     <LinearLayout

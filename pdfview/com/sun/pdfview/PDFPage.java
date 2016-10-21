@@ -20,6 +20,8 @@
  */
 package com.sun.pdfview;
 
+import jpdf.app.ImageFetcherPdf;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -27,7 +29,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import konstruktion.app.ImageFetcherPdf;
 
 import net.sf.andpdf.utils.Utils;
 

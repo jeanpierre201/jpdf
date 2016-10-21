@@ -20,7 +20,6 @@ import android.bitmap.util.RecyclingBitmapDrawable;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
-import android.library.imagezoom.ImageViewTouchBase;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
@@ -29,7 +28,7 @@ import android.widget.ImageView;
  * Sub-class of ImageView which automatically notifies the drawable when it is
  * being displayed.
  */
-public class RecyclingImageView extends ImageViewTouchBase {
+public class RecyclingImageView extends ImageView {
 
     public RecyclingImageView(Context context) {
         super(context);

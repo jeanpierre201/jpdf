@@ -19,6 +19,8 @@
 
     <dimen name="image_thumbnail_size">100dp</dimen>
     <dimen name="image_thumbnail_spacing">1dp</dimen>
-    <dimen name="image_detail_pager_margin">80dp</dimen>
+    <dimen name="image_detail_pager_margin">90dp</dimen>
+    <dimen name="viewpager_margin">-64dp</dimen>
+    <dimen name="viewpager_margin_fix">32dp</dimen>
 
 </resources>

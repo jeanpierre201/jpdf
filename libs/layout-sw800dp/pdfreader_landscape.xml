@@ -12,7 +12,7 @@
         android:baselineAligned="true"
         android:orientation="vertical" >
     
-    <jpdf.app.CustomViewPager
+    <industriekatalog.app.CustomViewPager
         android:id="@+id/pager_landscape"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
