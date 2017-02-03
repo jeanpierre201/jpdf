@@ -38,7 +38,7 @@ You can have more kiosks with their current urls just inserting more tags <magaz
 In that way you can customized your kiosks as you want.
 ____________________________________________________________________________________________________________________________
 
-The assets/jpdf/ contains the tool bar header in the given Kiosk. Here you can add more folder wit the name of the ne kiosk and insert the toolbarheader image depending the different size of the devices.
+The assets/jpdf/ contains the tool bar header in the given Kiosk. Here you can add more folder with the name of the ne kiosk and insert the toolbarheader image depending the different size of the devices.
 
 ____________________________________________________________________________________________________________________________
 
