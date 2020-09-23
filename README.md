@@ -1,7 +1,7 @@
 # jpdf
 # Autor:Jean Pierre De la Torre
 
-JPDF is a free version of one of my projects from 2014. It was created as a customised kiosk magazine app for different vendors. The app was developed using the "andpdf" open source library. The app contains three activities: one is the online KIOSK (hybrid function whiting a web view showing the kiosk as a backend of the app), the second one is the LIBRARY or file folder where the pdf are stored and the third one is the PDF VIEWER which render any PDF format with the fancy touch functionalities. One pinch touch will show the thumbnails in the bottom. Two pinch zoom in / out. Two finger close/open zoom function. The project was the first release and may still has some bugs to fix.
+JPDF is a free version of one of my projects in 2014. It was created as a customised kiosk magazine app for different vendors. The app was developed using the "andpdf" open source library. The app contains three activities: one is the online KIOSK (hybrid function whiting a web view showing the kiosk as a backend of the app), the second one is the LIBRARY or file folder where the pdf are stored and the third one is the PDF VIEWER which render any PDF format with the fancy touch functionalities. One pinch touch will show the thumbnails in the bottom. Two pinch zoom in / out. Two finger close/open zoom function. The project was the first release and may still has some bugs to fix.
 
 (Eclipse) Android DeveloperTools 23.0.2
 Android SDK version 4.2.
