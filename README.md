@@ -12,13 +12,13 @@ Local Sqlite
 JAVA Classes -------------------------
 
 Main Activity Launch (KIOSK)
-src/jpdf.app/JpdfApp.java
+src/industriekatalog.app/JpdfApp.java
 
 Main Activity (LIBRARY)
-src/jpdf.app/ArchiveList.java
+src/industriekatalog.app/ArchiveList.java
 
 Main Activity (PDF VIEWER)
-src/jpdf.app/ShowPdf.java
+src/industriekatalog.app/ShowPdf.java
 
 ---------------------------------------
 
